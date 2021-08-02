@@ -1,0 +1,26 @@
+/* JS- Silly Story Generator */
+.silly-story-generator-content{
+    font-family: helvetica, sans-serif;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+}
+.js-label{
+    padding-bottom: 20px;
+}
+  
+.js-label input[type="text"] 
+{
+    padding: 5px;
+    width: 150px;
+}
+  
+.story{
+    background: #FFC125;
+    color: #5E2612;
+    padding: 10px;
+    visibility: hidden;
+}
+.randomize{
+    font-size: 18px;
+}

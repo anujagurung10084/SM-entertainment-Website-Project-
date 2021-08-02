@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Story Generator</title>
+    <link rel="stylesheet" href="css/silly-story-generator.css">
+</head>
+<body>
+    <div class="silly-story-generator-content">
+      <h2>Silly Story Generator</h2>
+    <div>
+        <label for="customername">Enter customer name: </label>
+        <input id="customername" type="text" placeholder="">
+      </div>
+      <br>
+      <div class="js-label"> 
+        <label for="us">US</label>
+        <input id="us" type="radio" name="ukus" value="us" checked>
+        <label for="uk">UK</label>
+        <input id="uk" type="radio" name="ukus" value="uk">
+      </div>
+      
+      <div>
+        <button class="randomize">Generate random story</button>
+      </div><br>
+  
+      <p class="story"></p>
+      
+      <script src="./js/silly-strory-generator.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Https and Security</title>
+    <link rel="stylesheet" href="./css/http-exercise.css">
+</head>
+
+<body>
+    <div class="https">
+        <h1>HTTP and Security</h1>
+        <hr><br>
+        <ol>
+            <li>What is the Hypertext Transfer Protocol (HTTP)</li>
+            <p>The Hypertext Transfer Protocol (HTTP) is an application-layer protocol used to send text - based
+                documents like HTML. It was created to allow web browsers and servers to communicate, but it can also be
+                used for other reasons.</p>
+
+            <li>Why is HTTP called a stateless protocol?</li>
+            <p>HTTP is called as a stateless protocol because each requirement is enforced independently with no
+                knowledge of previous requests, implying that whenever the transaction ends, interaction between client
+                and server is also lost.</p>
+
+            <li>Describe the three phases of establishing a session using client-server protocols such as HTTP.</li>
+            <p>In client-server protocols, like HTTP, sessions consist of three phases: <br><br>
+                a. The client establishes a TCP connection (or the appropriate connection if the transport layer is not
+                TCP). <br>
+                b. The client sends its request, and waits for the answer. <br>
+                c. The server processes the request, sending back its answer, providing a status code and appropriate
+                data.
+            </p>
+
+            <li>Describe the parameters on a get and post request.</li>
+            <p>Both the GET and POST methods are used to transmit data from client to the server in the HTTP protocol.
+                <br>
+                The main difference between the two methods is that the GET method appends the request parameter towards
+                the URL string, while the POST method appends the request parameter towards the message body, creating a
+                more stable way of data transfer from client to the server in the HTTP protocol.
+            </p>
+
+            <li>What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?</li>
+            <p>HTTP response status codes show whether or not such a certain HTTP request were completed successfully.
+                <br><br>
+                a. 200 — OK
+                This is the code that browsers receive when every has gone according to plan. <br>
+                b. 404 — Not Found
+                The 404 status code is the most well-known among us all, showing that the requested resource was not
+                found at the specified URL, and the server has no clue how long it took to find it.
+            </p>
+
+            <li>What are HTTP cookies? Give an example.</li>
+            <p>An HTTP cookie is a tiny piece of information sent by a server to a user's web browser. It's possible
+                that the browser will save it and send it back with subsequent requests to the same server. It's
+                commonly used to determine if two requests came from the same browser, for examples, to keep a user
+                logged in. It keeps a record of stateless HTTP protocol information. <br><br>
+                For example, if Path=/docs is set, these paths match: <br><br>
+                a. /docs. <br>
+                b. /docs/Web/ <br>
+                c. /docs/Web/HTTP.</p>
+
+            <li>Why are cookies a security issue?</li>
+            <p>Cookies aren't harmful because the data they store doesn't change. They can't utilize viruses or other
+                software to infect computers. Some cyberattacks, on the other hand, can hijack cookies and get access to
+                your browsing activities. Their ability to track people's browsing histories poses a threat.</p>
+
+            <li>Describe session hijacking and XSS</li>
+            <p>Session hijacking- is an activity in which a person gets hold of a user session <br></p>
+            Cross-site scripting (XSS) - is most likely a most dangerous and common method of web session hijacking.
+
+            <li>Describe Cross-site request forgery(CSRF)</li>
+            <p>Cross-site request forgery (commonly known as CSRF) is a web security problem that allows an attacker to
+                trick users into doing things they don't want to do. It allows an attacker to effectively overcome the
+                same origin policy, which is meant to keep websites from interacting with one another.</p>
+
+            <li>What are Cross-site HTTP requests (CORS) and what requests use CORS?</li>
+            <p>CORS (Cross-Origin Resource Sharing) is an HTTP header-based system that allows a server to specify any
+                additional origins (domain, scheme, or port) from which a browser should allow resource loading.
+                <br> Simple requests <br> <br>
+                a. GET. <br>
+                b. HEAD. <br>
+                c. POST.
+            </p>
+        </ol>
+    </div>
+</body>
+
+</html>

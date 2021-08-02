@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------Home page---------- */
+
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../img/sm_building.jpg");
+    height: 86vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header p{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+} 
+
+.logo{
+    font-size: 30px;
+    font-weight:600;
+    color: white;
+}
+#click{
+    display: none;
+}
+nav{
+    height: 80px;
+    display: flex;
+    background: rgb(4, 4, 37);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+nav li{
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;    
+}
+
+nav ul li.active a{
+    border: 1px solid white;
+}
+
+nav .menu-button i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    display: none;
+    /* PC KO MA HIDE */
+
+}
+/* ---------- Middle link----------   */
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25%;
+    margin-left: 38% ;
+    width: 30%;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none; 
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #000;
+}
+.responsive-header{
+    display: none;
+}
+/* ---------- Music Video----------  */
+
+.video iframe{
+    display: block; 
+    margin: auto;
+    width: 55%;
+    padding: 10px 0;
+}
+.mvheader{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 0;
+    color: black;
+    text-transform: uppercase;
+}
+.mvtext{
+    text-align: center;
+    padding: 5px 0;
+}
+.mvptext{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.video{
+    width: 80%;
+    padding-left: 10%;
+}
+
+/* ---------- Get to know us more----------  */
+.more-headertop{
+   text-align: center;
+   text-transform: uppercase;
+   padding: 18px;
+}
+.more-header{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.img-one{
+    position: relative;
+    left: 36%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.img-two{
+    position: relative;
+    left: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.img-three{
+    position: relative;
+    left: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.more-para{
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    padding: 15px 20%;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+/*---------- About Us---------- */
+
+.about-main{
+    width: 100%;
+}
+
+.about-main h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.about-main h3{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.about-main p{
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.main-body{
+    padding: 0px 40px;
+    margin: 40px auto;
+}
+
+.about-content{
+    width: 45%;
+    float: right;
+}
+
+/* ----------Read more----------  */
+.concert h1{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.concert img{
+    padding: 20px 55px;
+}
+
+.concert p{
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    text-align: justify;
+    width: 95%;
+}
+
+.concert h3{
+    text-align: center;
+}
+
+.concert iframe{
+    width: 60%;
+    padding: 40px 20%;
+}
+/* ----------Gallery---------- */
+.heading h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 18px;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main img{
+    width: 480px;
+    height: 300px;
+    text-align: center;
+    margin: 15px;
+    padding: 20px 10px;
+    border: 1px solid black;
+    
+}
+
+/* ----------News---------- */
+
+.news-header{
+    text-align: center;
+    margin: 20px 0;
+}
+hr{
+    width: 15%;
+    height: 2px;
+    background-color: rgb(4, 4, 37);
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+}
+
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.news-box{
+    width: 350px;
+    height: 300px;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.news-box img{
+    border-radius: 50%;
+    padding: 10px;
+}
+.news-box p{
+    margin: 40px;
+}
+
+.eric-nam{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.eric-nam p{
+    text-align: justify;
+}
+
+
+
+/* ----------Contact part---------- */
+
+.contact-form{
+    background:#f1f1f1;
+    width: 40%;
+    position: relative;
+    top: 50px;
+    left: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 45px;
+    box-shadow: 0 0 10px #000000b3; 
+}
+
+.empty{
+    padding-bottom: 10%;
+}
+
+.input-field input[type=text],textarea,[type=email] {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border: 1px solid;
+    padding: 10px 0;
+    color: #000;
+}
+.input-field label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-btn input[type=submit]
+{
+    margin: 0px 40%;
+    padding: 15px;
+    width: 25%;
+    background: #000;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact-btn input[type=submit]:hover{
+    background-color: #002db3;
+    color: white;
+}
+
+.contact-form h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ----------Footer---------- */
+
+.footer-content{
+    /* display: inline-block; */
+    /* width: 100%; */
+    background-color: rgb(4, 4, 37);;
+    color: white;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    color: white;
+}
+.footer-content p{
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* ----------Icons---------- */
+
+.socialmedia ul{
+    display: flex;
+    width: 25%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.icon{
+    list-style: none;
+}
+
+.icon a{
+    padding: 10px 22px;
+    font-size: 20px;
+    color: white;
+}
+.socialmedia a:hover i{
+    color: aqua;
+}
+
+/* ----------Copyright---------- */
+
+.copyright{
+    padding: 10px 0;
+    text-align: center;  
+}
+.copyright p{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+/* To make the nav bar responsive */
+
+@media all and (max-width: 955px) {
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: rgb(9, 1, 31);
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 40px 0;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+    .header{
+        display: none;
+    }
+    
+    nav .menu-button i{
+        display: block;
+    }
+    
+    .responsive-header{
+        display: block;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../img/sm_building.jpg");
+        height: 86vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;     
+    }
+
+    .responsive-header p{
+        display: flex;
+        justify-content: center;
+        padding: 25% 10px 0 15%;
+        font-size: 42px; 
+        color: white;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        letter-spacing: 2px;
+    }
+    #click{
+        display: none;
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    #click:checked ~ .menu-button i:before{
+        /* Cancel button unique code */
+       content: "\f00d"; 
+    }
+    .contact-form{
+        width: 65%;
+        position: relative;
+        top: 50px;
+        left: 15%;
+    }
+    .empty{
+        padding-bottom: 20%;
+    }
+
+    .contact-btn input[type=submit]{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .socialmedia ul{
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0 68px;
+    }
+    .icon a{
+        font-size: 30px;
+    }
+} 

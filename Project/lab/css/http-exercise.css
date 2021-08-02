@@ -1,0 +1,21 @@
+/* Https and Security */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.https ol{
+    padding: 0 30px 0 50px;
+    padding-bottom: 30px;
+}
+.https h1{
+    text-align: center;
+    padding: 10px 0;
+}
+   
+.https li{
+    font-weight: bold;
+    padding: 10px 0;
+}
+.https p{
+    letter-spacing: 1px;
+    text-align: justify;
+}
